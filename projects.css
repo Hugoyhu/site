@@ -138,7 +138,7 @@ h1 {
     font-family: 'argesta_displayregular', sans-serif;
     font-size: 64px;
     font-weight: 600;
-    margin: 3% 20% 1% 10%;
+    margin: 3% 20% 1% 20%;
 }
 
 ul {
@@ -176,19 +176,14 @@ li a:hover {
 }
 
 hr {
-    margin: 2% 20% 2% 10%;
+    margin: 2% 20% 2% 20%;
 }
 
 p {
     font-family: 'argesta_textregular', sans-serif;
-    margin: 1% 40% 1% 10%;
+    margin: 1% 20% 1% 20%;
     font-size: 18px;
     font-weight: 500;
-}
-
-
-hr {
-    margin: 3% 40% 3% 10%;
 }
 
 .projectgrid {
