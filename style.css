@@ -131,14 +131,10 @@
 
 }
 
-
-
-
-
 h1 {
     color: black;
     font-family: 'argesta_displayregular', sans-serif;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 600;
     margin: 3% 20% 1% 10%;
 }
@@ -162,7 +158,6 @@ li a {
     display: block;
     border-radius: 7%;
     color: black;
-    font-size: 18px;
     text-align: center;
     font-family: 'argesta_headlineregular', sans-serif;
     padding: 14px 16px;
@@ -183,17 +178,16 @@ hr {
 
 p {
     font-family: 'argesta_textregular', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     margin: 1% 40% 1% 10%;
 }
 
 p1 {
     font-family: 'argesta_textregular', sans-serif;
-    padding: 10%;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    margin: 1% 40% 1% 0%;
+    margin: 1% 40% 1% 10%;
 }
 
 hr {
