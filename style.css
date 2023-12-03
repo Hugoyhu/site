@@ -178,17 +178,20 @@ hr {
 
 p {
     font-family: 'argesta_textregular', sans-serif;
+}
+
+.text {
     font-size: 18px;
     font-weight: 400;
     margin: 1% 40% 1% 10%;
 }
 
-p1 {
-    font-family: 'argesta_textregular', sans-serif;
+.info {
     font-size: 14px;
     font-weight: 500;
     margin: 1% 40% 1% 10%;
 }
+
 
 hr {
     margin: 3% 40% 3% 10%;
