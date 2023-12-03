@@ -161,7 +161,7 @@
     li a {
         display: block;
         border-radius: 7%;
-        font-size: 1rem;
+        font-size: 2rem;
         color: black;
         text-align: center;
         font-family: 'argesta_headlineregular', sans-serif;
@@ -183,7 +183,7 @@
     
     p {
         font-family: 'argesta_textregular', sans-serif;
-        font-size: 1rem;
+        font-size: 2rem;
         font-weight: 400;
         margin: 1% 40% 1% 10%;
     }
