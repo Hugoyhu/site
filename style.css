@@ -134,69 +134,71 @@
 
 
 
-@media screen and (max-width: 800px) {
-    h1 {
-        color: black;
-        font-family: 'argesta_displayregular', sans-serif;
-        font-size: 4rem;
-        font-weight: 600;
-        margin: 3% 20% 1% 10%;
-    }
+@media screen and (max-width: 600px) {
     
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #000;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    
-    li {
-        float: right;
-      }
-      
-    li a {
-        display: block;
-        border-radius: 7%;
-        font-size: 2rem;
-        color: black;
-        text-align: center;
-        font-family: 'argesta_headlineregular', sans-serif;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: #e8e3d4;
-    }
-    
-    .active {
-        background-color: #cfc9b7;
-    }
-    
-    hr {
-        margin: 2% 20% 2% 10%;
-    }
-    
-    p {
-        font-family: 'argesta_textregular', sans-serif;
-        font-size: 2rem;
-        font-weight: 400;
-        margin: 1% 40% 1% 10%;
-    }
-    
-    p1 {
-        font-family: 'argesta_textregular', sans-serif;
-        padding: 10%;
-        font-size: 0.8rem;
-        font-weight: 500;
-        margin: 1% 40% 1% 0%;
-    }
-    
-    hr {
-        margin: 3% 40% 3% 10%;
-    }
+}
+
+h1 {
+    color: black;
+    font-family: 'argesta_displayregular', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    margin: 3% 20% 1% 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+  }
+  
+li a {
+    display: block;
+    border-radius: 7%;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'argesta_headlineregular', sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e8e3d4;
+}
+
+.active {
+    background-color: #cfc9b7;
+}
+
+hr {
+    margin: 2% 20% 2% 10%;
+}
+
+p {
+    font-family: 'argesta_textregular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 1% 40% 1% 10%;
+}
+
+p1 {
+    font-family: 'argesta_textregular', sans-serif;
+    padding: 10%;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 1% 40% 1% 0%;
+}
+
+hr {
+    margin: 3% 40% 3% 10%;
 }
