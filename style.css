@@ -57,6 +57,24 @@ li {
     margin-bottom: 1%;
     margin-left: 1%;
 }
+
+lb {
+    float: center;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    margin-left: 20%;
+}
+
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    background-color: #e8e3d4;
+    color: black;
+    font-family: 'argesta_headlineregular', sans-serif;
+}
   
 li a {
     display: block;
