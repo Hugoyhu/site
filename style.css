@@ -33,6 +33,19 @@ h3 {
 .div10 { grid-area: 10 / 1 / 11 / 2; } 
 .div11 { grid-area: 11 / 1 / 12 / 2; } 
 .div12 { grid-area: 12 / 1 / 13 / 2; } 
+.div13 { grid-area: 13 / 1 / 14 / 2; } 
+.div14 { grid-area: 14 / 1 / 15 / 2; } 
+.div15 { grid-area: 15 / 1 / 16 / 2; } 
+.div16 { grid-area: 16 / 1 / 17 / 2; } 
+.div17 { grid-area: 17 / 1 / 18 / 2; } 
+.div18 { grid-area: 18 / 1 / 19 / 2; } 
+.div19 { grid-area: 19 / 1 / 20 / 2; } 
+.div20 { grid-area: 20 / 1 / 21 / 2; } 
+.div21 { grid-area: 21 / 1 / 22 / 2; } 
+.div22 { grid-area: 22 / 1 / 23 / 2; } 
+.div23 { grid-area: 23 / 1 / 24 / 2; } 
+.div24 { grid-area: 24 / 1 / 25 / 2; } 
+
 
 .icons {
     text-decoration: none;
