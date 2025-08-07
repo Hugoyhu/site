@@ -1,0 +1,146 @@
+%-------------------------
+% Rover Resume - Fancy Template
+% Link: https://github.com/subidit/rover-resume
+%------------------------
+
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{inter} % https://tug.org/FontCatalogue/
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{geometry}
+\geometry{
+letterpaper,
+top=1.8cm,
+bottom=1in,
+left=2.5cm,
+right=2.5cm
+}
+
+\setcounter{secnumdepth}{0} % remove section numbering
+\pdfgentounicode=1 % make ATS friendly
+
+% \usepackage[dvipsnames, svgnames, x11names]{xcolor} 
+\usepackage[dvipsnames]{xcolor} % xcolor.pdf Sec.4 Colors by Name
+\colorlet{icnclr}{gray}
+% \colorlet [⟨type⟩]{⟨name⟩}[⟨num model⟩]{⟨color ⟩}
+% \definecolor[⟨type⟩]{⟨name⟩}{⟨model-list⟩}{⟨spec-list⟩}
+
+\usepackage{enumitem}
+\setlist[itemize]{
+    noitemsep,
+    left=0pt..1.5em
+}
+\setlist[description]{itemsep=0pt}
+\setlist[enumerate]{align=left}
+
+\usepackage{titlesec}
+% \titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
+% \titlespacing{\section}{0pt}{*3}{*1}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+% \titleformat{<command>}[<shape>]{<format>}{<label>}{<sec>}{<before-code>}[<after-code>]  
+\titleformat{\section}{\color{Sepia}\large\fontseries{black}\selectfont\uppercase}{}{}{\ruleafter}[\global\RemVStrue]
+\titleformat{\subsection}{\large\fontseries{semibold}\selectfont}{}{}{\rvs}
+\titleformat{\subsubsection}{\large\fontseries{medium}\selectfont}{}{}{}
+
+\usepackage{xhfill} 
+\newcommand\ruleafter[1]{#1~\xrfill[.5ex]{1pt}[gray]} % add rule after title in .5 x-height 
+
+\newif\ifRemVS % remove vspace between \section & \subsection
+\newcommand{\rvs}{
+    \ifRemVS
+        \vspace{-1.5ex}
+    \fi
+    \global\RemVSfalse
+}
+
+
+\usepackage{fontawesome5}
+
+\usepackage[bookmarks=false]{hyperref} % [imp!]
+\hypersetup{ % https://en.wikibooks.org/wiki/LaTeX/Hyperlinks
+    colorlinks=true,
+    urlcolor=Sepia,
+    pdftitle={Hugo Hu Resume},
+}
+
+\usepackage[page]{totalcount}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}	
+\fancyhf{}							
+% \cfoot{\color{darkgray} Rover R\'esum\'e -- Page \thepage{} of \totalpages}
+
+
+\begin{document}
+
+%== HEADER ==%
+\begin{center}
+    {\fontsize{36}{36}\selectfont\interthin HUGO \interheavy HU} \\ \bigskip
+    {\color{icnclr}\faEnvelope[regular]} \href{mailto:hugo@hugohu.me}{hugo@hugohu.me} $|$ 
+    {\color{icnclr}\faGithub} \href{https://github.com/Hugoyhu}{Hugoyhu} $|$
+    {\color{icnclr}\faLinkedinIn} \href{https://www.linkedin.com/in/hugo-hu-a4a67821a/}{Hugo Hu}
+\end{center}
+
+\section{Education}
+%==============
+\subsection{Stuyvesant High School \hfill 2026}
+\begin{itemize}
+    \item Clubs: Stuyvesant Math Team, Mu Alpha Theta, Spectator Photos, StuyCast
+\end{itemize}
+
+
+\section{Experience}
+%===================
+\subsection{Memorial Sloan Kettering Cancer Center \hfill Summers 2024, 2025}
+\subsubsection{Summer Intern, Medical Physics \hfill New York, NY}
+\begin{itemize}
+    \item Trained and improved ML network for lung cancer CT deformable image registration
+    \item Wrote C\#, Python, and Matlab preprocessing code to prepare data for training 
+\end{itemize}
+
+\subsection{Hack Club \hfill Shelburne, VT and Remote}
+\subsubsection{Hardware Engineering Intern \hfill April 2022 - March 2024}
+\begin{itemize}
+    \item Assisted dozens of HS students in creating their first PCB through the Onboard PCB Grant Program, offering technical expertise and design reviews
+    \item Designed motor controller board and USB-C Power Delivery power supply unit for Blot, a 2D CNC plotting machine
+    \item Designed mainboard for Sprig, a RP2040-based handheld gaming console
+\end{itemize}
+\subsubsection{Mail Team Coordinator and Events \hfill July 2021 - June 2023}
+\begin{itemize}
+    \item Developed mailing software with an address database to implement USPS Intelligent Mail Barcode and access cheaper commercial pricing 
+    \item Helped organized three in-person hackathons in NYC, Vermont, and San Francisco
+\end{itemize}
+
+\section{Projects}
+%=================
+\subsection{Photography Portfolio {\normalfont $|$ \href{https://github.com/Hugoyhu/Image-Gallery-v2}{\textit{GitHub}}} \hfill 2024}
+\begin{itemize}
+    \item Built portfolio website with nextJS, Cloudinary CDN, and mongoDB.
+\end{itemize}
+\subsection{SAMD21 Corginator {\normalfont $|$ \href{https://github.com/Hugoyhu/SAMD21-Corginator}{\textit{GitHub}}} \hfill 2024}
+\begin{itemize}
+    \item Designed and built a SAMD21-powered corgi-shaped Arduino
+\end{itemize}
+
+\subsection{USB2.0 Type-C Hub {\normalfont $|$ \href{https://github.com/Hugoyhu/SL2.1A-Type-C-Hub}{\textit{GitHub}}} \hfill 2023}
+\begin{itemize}
+    \item Designed and built an open source reference design for a four port USB hub
+\end{itemize}
+
+\subsection{NXP NTAG I2C NFC Evaluation Board {\normalfont $|$ \href{https://github.com/Hugoyhu/NTAG-I2C-Eval-Board}{\textit{GitHub}}} \hfill 2023}
+\begin{itemize}
+    \item Designed an open source reference design for NFC-enabled business cards
+\end{itemize}
+
+\section{Skills, Interests \& Awards}
+%===============================
+\begin{enumerate}[itemsep=0pt]
+  \item \b{Technical}: KiCAD, C, C++, Python, nextJS, HTML/CSS, LaTeX
+  \item \b{Laboratory}: Soldering, reflow, and rework equipment 
+  \item \b{Awards}: Gold President's Volunteer Service Award (2021)
+\end{enumerate}
+
+\end{document}
